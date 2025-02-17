@@ -1,0 +1,17 @@
+$TTL	86400
+@	IN	SOA	mail.izv.test. admin.izv.test. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 )	; Negative Cache TTL
+;
+@			IN	NS		mail
+
+mail		IN	A		192.168.56.10
+
+imap 		IN 	CNAME 	mail.izv.test.
+pop3 		IN 	CNAME 	mail.izv.test.
+smtp		IN 	CNAME 	mail.izv.test.
+
+@			IN  MX 10 	mail.izv.test.

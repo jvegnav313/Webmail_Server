@@ -1,0 +1,9 @@
+zone "izv.test" {
+    type master;
+    file "/var/lib/bind/mail.izv.test.dns";
+};
+
+zone "56.168.192.in-addr.arpa" {
+    type master;
+    file "/var/lib/bind/mail.izv.test.rev";
+};
