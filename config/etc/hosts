@@ -1,4 +1,4 @@
-192.168.56.100   mail mail.izv.test
+192.168.56.10   mail mail.izv.test
 127.0.0.1	    localhost
 127.0.0.2	    bookworm
 ::1		        localhost ip6-localhost ip6-loopback
